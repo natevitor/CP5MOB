@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Checkpoint2</string>
+    <string name="cadastro">Register</string>
+    <string name="lista">List</string>
+    <string name="nome">Name</string>
+    <string name="sobrenome">Last Name</string>
+    <string name="email">Email</string>
+    <string name="telefone">Phone</string>
+    <string name="endereco">Address</string>
+    <string name="salvar">Save</string>
+</resources>

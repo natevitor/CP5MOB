@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Campo de Nome -->
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:importantForAccessibility="yes"
+        android:padding="16dp" />
+
+    <!-- Campo de Sobrenome -->
+    <EditText
+        android:id="@+id/inputSobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sobrenome"
+        android:inputType="textPersonName"
+        android:importantForAccessibility="yes"
+        android:padding="16dp" />
+
+    <!-- Campo de Email -->
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:importantForAccessibility="yes"
+        android:padding="16dp" />
+
+    <!-- Campo de Telefone -->
+    <EditText
+        android:id="@+id/inputTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        android:importantForAccessibility="yes"
+        android:padding="16dp" />
+
+    <!-- Campo de Endereço -->
+    <EditText
+        android:id="@+id/inputEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/endereco"
+        android:inputType="textPostalAddress"
+        android:importantForAccessibility="yes"
+        android:padding="16dp" />
+
+    <!-- Spinner de Categoria -->
+    <Spinner
+        android:id="@+id/spinnerCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Botão de Salvar -->
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Botão de Deletar -->
+    <Button
+        android:id="@+id/buttonDeletar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deletar"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+</LinearLayout>
